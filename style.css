@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+html {
+  overflow-x: hidden;
+}
+
+
+body {
+  
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background: white;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  height: 460vh; 
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+header{
+   
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #d5e6ff, #c5caf4);
+  justify-content: center;
+}
+
+.marinate {
+  display: grid;
+  float: left;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(213,237,255, 0.5);
+}
+
+.images{
+  flex: 1;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+.text {
+  flex: 1;
+  padding: 5px;
+}
+
+h2, h3 {
+  background: white;
+  font-family: 'Orbitron', Palatino Linotype, Book Antiqua, Palatino, serif;
+  max-width: 65vh;
+  font-weight: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h2, h3, h4, h5, h6 {
+  position: relative;
+  color:rgb(5, 16, 69);
+}
+
+p, ul, ol, li {
+  background: white;
+}
+
+
+section {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  background-image: url('beach.jpg');
+  border-radius: 10px;
+  max-width: 215vh;
+  color: rgb(60, 71, 168);
+  text-shadow: 2px 2px 1px #64adf6;
+  font-weight:500;
+  padding: 110px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.marinate .one img{
+  position: absolute;
+  margin: 10px;
+  padding-top: 15px;
+
+}
+img{
+  position: relative;
+  margin: 10px;
+  height: 400px;
+  width: 500px;
+}
